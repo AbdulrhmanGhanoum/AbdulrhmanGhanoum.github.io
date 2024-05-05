@@ -6,30 +6,69 @@ body {
   background: no-repeat fixed;
   height: 800px;
   background-image: linear-gradient(to top, #000000, transparent);
-}
-
-
-body {
   font-family: "Cairo Play", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+
+
+
 }
+
+
+
 
 .image-eklemek {
 
   background-image: url(./Images/Untitled\ Project_stock-vector-six-pairs-of-asian_2024-05-05_23.45.00.jpg);
   background-size: cover;
-  border: rgb(0, 0, 0) solid 0.5px 1px 1px;
-  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  border: rgba(255, 255, 255, 0) solid 0.5px 1px 1px;
+  box-shadow: 2px 2px 2px rgb(77, 70, 70);
 
 
 }
 
-.text-primary {
 
-  text-shadow: 5px 5px 5px rgb(255, 255, 255);
 
+.Instagram_hesabi{
+
+border-radius: 50%;
+position: fixed;
+bottom: 0;
+right:  0;
+float:right;
+
+}
+.whatsapp_hesabi{
+
+
+  position: fixed;
+  bottom: 0;
+  right:  35px;
+  float:right;
+  
+}
+#ikinciBackground{
+height: 100%;
+width: 100%;
+background-repeat:repeat-y;
+background-size: cover;
+
+opacity: 3%;
+background-position: center;
+background-image: linear-gradient(to bottom, #0000000e, transparent);
+background-image: url(./Images/manga-anime-collection-thumb.jpg);
+
+}
+
+#footer_abdulrhman{
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  text-transform: capitalize;
+  border-radius: 30px 30px 0 0;
+  
 }
