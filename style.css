@@ -1,12 +1,11 @@
 body {
 
-background-image: url(./Images/71spIkbEsTWjT.webp);
-background-repeat: repeat;
-  background-attachment: scroll;
+
+
   background-position: center;
-  
-
-
+  background: no-repeat fixed;
+  height: 800px;
+  background-image: linear-gradient(to top, #000000, transparent);
 }
 
 
@@ -17,4 +16,20 @@ body {
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+}
+
+.image-eklemek {
+
+  background-image: url(./Images/Untitled\ Project_stock-vector-six-pairs-of-asian_2024-05-05_23.45.00.jpg);
+  background-size: cover;
+  border: rgb(0, 0, 0) solid 0.5px 1px 1px;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+
+}
+
+.text-primary {
+
+  text-shadow: 5px 5px 5px rgb(255, 255, 255);
+
 }
