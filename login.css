@@ -38,14 +38,18 @@ height: 100vh;
   width: 768px;
   max-width: 100%;
   min-width: 480px;
+  height: 600px;
+  width: 900px;
+  
 }
-.container p{
+p{
 
 
 font-size: 14px;
 line-height: 20px;
 letter-spacing: 0.3px;
-margin: 20px 0;
+margin: 130px 50px ;
+color: #000000;
 
 }
 
@@ -55,14 +59,129 @@ font-size: 12px;
 
 }
 
-.container button{
+#container_btn{
+  background: linear-gradient(to left , #5c6bc000,#0f022d);
 
-background-color: #512da8;
+background-color: #000000;
 color: #fff;
 font-size: 12px;
-padding: 10px 45px;
+padding: 15px 45px;
+border: 1px solid transparent;
+border-radius: 10px;
+font-weight: 0.5px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+margin-top: 10px;
+cursor: pointer;
+}
+.container form{
+
+/* background-color: #ccc;
+ */display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+height: 100%;
+
+}
+
+.container input{
+
+background-color: #eee;
+border: none;
+margin: 8px 0;
+padding: 10px 15px;
+font-size: 13px;
+border-radius: 8px;
+width: 100%;
+outline: none;
+}
+
+.form-container {
+
+position: absolute;
+top: 0;
+height: 100%;
+
+}
+
+.sign-in{
+
+
+left: 0;
+width: 50%;
+
+}
+
+.container.active .sign-in {
+
+transform: translateX(100%);
+
+}
+
+.toggle{
+
+
+background-color: #000000;
+height: 600px;
+position: relative;
+left: -25%;/
+height: 100%;
+width: 180%;
+transform: translateX(15);/
+transition: all 10.6s ease-in-out;
+background: linear-gradient(to right , #5c6bc000,#0f022d);
+color: #fff;
+background-image: url(./Images/ezgif.com-video-to-gif-converter.gif);
+background-size: contain;
+background-repeat: no-repeat;
+background-position:center;
+
+}
+
+.toggle-container{
+  background-color: #000000;
+
+position: absolute;
+top: 0;
+left: 50%;
+height: 100%;
+width: 50%;
+overflow: hidden;
+border-radius: 200px 0px 0px 200px;
 
 
 
 
 }
+
+.div_welcome_back{
+width: 110%;
+text-transform: capitalize;
+font-size: 70px;
+margin-left: 40px;
+margin-top: 25px;
+font-weight: bold;
+background-color: #000000;
+border-radius: 50px;
+background: linear-gradient(to left , #323a6700,#0f022d);
+color:#eee;
+text-align: left;
+padding-left: 5%;
+
+
+
+
+
+}
+#back_{
+
+  font-size: 70px;
+  margin-left: 50px;
+  font-weight: bold;
+  
+
+
+}
+
