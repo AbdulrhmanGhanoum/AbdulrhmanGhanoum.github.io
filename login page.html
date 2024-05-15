@@ -3,41 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 </head>
 <body>
-    
-
-<div class="container" id="container">
- <div class="form-container sign-in">
-    <form class="mr">
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <a href="#">Forgot your password?</a>
-        <input id="container_btn" type="button" value="sign in">
-    </form>
- </div>  
- <div class="div_welcome_back animation_p">welcome <div id="back_" class="animation_p">back</div></div> 
- <p class="paragraph mr">enter your personal details <br> to use all of site features </p>
-
- <div class="toggle-container">
-    <div class="toggle">
-        <div class="toggle-panel toggle-left">
-            <h1>welcome back</h1>
-<!--             <button class="hidden" id="login">sign in</button>
- -->        </div>
+    <div id="particles-js"></div>
+    <div class="container h-75  " id="container">
+        <div class="row no-gutters ">
+            <div class="col-md-6 order-2 order-md-1">
+                <div class="toggle d-none d-md-block  ">
+                    <!-- The gif image will be here for larger screens -->
+                </div>
+            </div>
+            <div class="col-md-6 form-container sign-in d-flex flex-column align-items-center justify-content-center order-1 order-md-2 ">
+                <form class="w-75" id="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control rounded-pill btn-lg" required  placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control rounded-pill btn-lg" required placeholder="Email">
+                    </div>
+                    <button id="container_btn" class="btn btn-dark btn-block mt-2 btn-lg rounded-pill ">Sign In</button>
+                </form>
+                <div class="mt-4 text-center ">
+                    
+                    <p class="paragraph mt-1">
+                        Enter your personal details <br> to use all of site's features.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 d-md-none order-3">
+                <div class="toggle">
+                    
+                </div>
+            </div>
+        </div>
     </div>
- </div>
-</div>
-
-
-<div id="ikinciBackground"></div>
-
-<script src="login.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>
