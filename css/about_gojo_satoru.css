@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+   
   }
   .container {
     max-width: 873px;
@@ -53,6 +54,7 @@ text-transform: capitalize;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
+  
   }
   
   
@@ -137,11 +139,11 @@ text-transform: capitalize;
   
 
   #particles-js {
-    position: absolute;
+    position:fixed;
 
     width: 200%;
     height: 400%;
-    top: 15;
+    top: 0;
     left: 0;
 
     z-index: -1;
