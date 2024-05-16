@@ -22,12 +22,18 @@
                 </div>
             </div>
             <div class="col-md-6 form-container sign-in d-flex flex-column align-items-center justify-content-center order-1 order-md-2 ">
-                <form class="w-75" id="form">
+                <form class="w-75 needs-validation" id="form" action="https://abdulrhmanghanoumgithubio.freewebhostmost.com/login.php" method="post" novalidate>
                     <div class="form-group">
-                        <input type="text" class="form-control rounded-pill btn-lg" required  placeholder="Name">
+                        <input type="email" name="name" class="form-control rounded-pill btn-lg" placeholder="oni chan ano.... enter  e... e... e.. email re"required>
+                        <div class="invalid-feedback">
+                            Looks dezzzz good!
+                        </div>  
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control rounded-pill btn-lg" required placeholder="Email">
+                        <input type="password" class="form-control rounded-pill btn-lg" name="password" required  placeholder="****">
+                        <div class="invalid-feedback">
+                            Looks not good!
+                        </div>
                     </div>
                     <button id="container_btn" class="btn btn-dark btn-block mt-2 btn-lg rounded-pill ">Sign In</button>
                 </form>
@@ -49,5 +55,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="login.js"></script>
+    <script src="./Js/for_login_validation.js"></script>
 </body>
 </html>
