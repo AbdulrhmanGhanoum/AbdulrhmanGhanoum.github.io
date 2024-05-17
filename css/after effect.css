@@ -1,0 +1,175 @@
+iframe {
+
+
+    border-radius: 30px;
+
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+
+}
+
+.container {
+    max-width: 873px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+
+}
+
+.content {
+    overflow: scroll;
+    max-height: 850px;
+    padding-right: 20px;
+    max-width: 850px;
+    /* Kaydırma çubuğunun görünmesini önlemek için */
+
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.heading-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.youtube-video {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+* {
+
+
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+* {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+
+body {
+
+    background-position: center;
+    background: no-repeat fixed;
+    height: 800px;
+    background-image: linear-gradient(to top, #000000, transparent);
+
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+
+
+
+}
+
+
+
+
+.image-eklemek {
+
+    background-image: url(../Images/en\ small\ coloeful.jpg);
+    background-size: cover;
+    border: rgba(255, 255, 255, 0) solid 0.5px 1px 1px;
+    box-shadow: 2px 2px 2px rgb(77, 70, 70);
+
+
+}
+
+
+
+.Instagram_hesabi {
+
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    float: right;
+
+}
+
+.whatsapp_hesabi {
+
+
+    position: fixed;
+    bottom: 0;
+    right: 35px;
+    float: right;
+
+}
+
+#ikinciBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent), url(https://i.pinimg.com/originals/25/2f/17/252f17b3a6e87c5955ccd01189c1e8bc.gif);
+    opacity: 90%;
+    z-index: -2;
+    filter: blur(5px);
+}
+
+
+#footer_abdulrhman {
+    background-color: #d39595e8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 30px 30px 0 0;
+
+}
+
+
+#particles-js {
+    position: fixed;
+
+    width: 200%;
+    height: 400%;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+}
+
+bg-danger-subtle {
+
+
+
+    background-color: #d39595e8;
+}
