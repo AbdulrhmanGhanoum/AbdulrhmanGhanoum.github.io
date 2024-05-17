@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/loader.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,6 +20,8 @@
 
 <body>
 
+        <div class="loader"></div>
+        <div id="content" style="display: none;">
     <nav class="navbar navbar-expand-xlg bg-body-tertiary image-eklemek">
         <div class="container-fluid  ">
             <a class="navbar-brand fw-bold text-black " href="/login page.html">Login</a>
@@ -102,7 +105,7 @@
         </div>
         <div class="col">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="/Images/ab67616d0000b273ce42d24e8f18ba9896596dd5.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -130,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 
 
 
@@ -146,31 +149,6 @@
     </div>
 
 
-    <section class="contact-section" id="contact">
-        <div class="row">
-            <h2>Get in touch</h2>
-            <p class="little-description">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel:
-                (202) 456-1111</p>
-        </div>
-        <div class="row">
-            <form action="https://formspree.io/saifyaahoooo@gmail.com" method="POST">
-                <div class="row">
-                    <div class="col span_1_of_2">
-                        <input type="text" name="Name" placeholder="Enter Name *" required>
-                    </div>
-                    <div class="col span_1_of_2">
-                        <input type="email" name="Email" placeholder="Enter Email *" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <textarea name="Message" cols="30" rows="10" placeholder="Your Message here..."></textarea>
-                </div>
-                <div class="row">
-                    <input type="submit" value="Send Message" class="btn btn-submit">
-                </div>
-            </form>
-        </div>
-    </section>
 
 
 
@@ -180,10 +158,28 @@
         <p>this site made by abdulrhman fouad ghanoum who studies in Sakarya university</p>
         <p>G231210571</p>
     </footer>
+
+
+</div>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="./app.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+   
+          setTimeout(function() {
+          
+            document.querySelector('.loader').style.display = 'none';
+           
+            document.getElementById('content').style.display = 'block';
+          }, 2500);
+        });
+      </script>
 </body>
 
 </html>
