@@ -132,3 +132,44 @@ height: 70%;
   background-color: #bbbbbb;
   width: 100%;
 }
+
+
+
+.roughen_edge{
+
+
+border-radius: 30px;
+
+}
+
+
+
+
+
+        .card {
+            overflow: hidden;
+        }
+
+        .card-img-top {
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover .card-img-top {
+            transform: scale(1.1);
+        }
+
+        @keyframes flicker {
+            0% {
+                opacity: 1;
+            }
+           
+            
+            100% {
+                opacity: 0.95;
+            }
+        }
+
+        .flicker {
+            animation: flicker 0.02s infinite;
+        }
+    
